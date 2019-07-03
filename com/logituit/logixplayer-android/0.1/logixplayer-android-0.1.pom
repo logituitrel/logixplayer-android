@@ -13,11 +13,6 @@
       <version>2.9.6</version>
     </dependency>
     <dependency>
-      <groupId>com.google.android.exoplayer</groupId>
-      <artifactId>extension-ima</artifactId>
-      <version>2.9.6</version>
-    </dependency>
-    <dependency>
       <groupId>com.android.support</groupId>
       <artifactId>recyclerview-v7</artifactId>
       <version>25.3.1</version>
