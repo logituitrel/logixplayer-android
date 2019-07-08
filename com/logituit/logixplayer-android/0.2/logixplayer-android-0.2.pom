@@ -6,7 +6,7 @@
   <artifactId>logixplayer-android</artifactId>
   <version>0.2</version>
   <packaging>aar</packaging>
-  <dependencies>
+   <dependencies>
     <dependency>
       <groupId>com.google.android.exoplayer</groupId>
       <artifactId>exoplayer</artifactId>
