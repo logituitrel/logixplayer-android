@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.logituit</groupId>
+  <artifactId>logixplayer-android</artifactId>
+  <version>0.8.2</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.google.android.exoplayer</groupId>
+      <artifactId>exoplayer</artifactId>
+      <version>2.9.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.exoplayer</groupId>
+      <artifactId>extension-ima</artifactId>
+      <version>2.9.6</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>recyclerview-v7</artifactId>
+      <version>25.3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.facebook.android</groupId>
+      <artifactId>audience-network-sdk</artifactId>
+      <version>5.4.1</version>
+    </dependency>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>design</artifactId>
+      <version>28.0.0</version>
+    </dependency>
+  </dependencies>
+  <description>POM was created from install:install-file</description>
+</project>
