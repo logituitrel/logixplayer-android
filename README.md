@@ -19,17 +19,18 @@ In your app's build.gradle file:
 * Add the following code in repositories:
 
 ```repositories {
-	    maven {
-	    url 'https://raw.github.com/logituitrel/logixplayer-android/master'
-	    }
+maven {
+	url 'https://raw.github.com/logituitrel/logixplayer-	android/master'
 	}
+}
 ```	
 
 * In dependencies, add:
 
-```api ('com.logituit:logixplayer-android:0.8.4.1') {
+```
+api ('com.logituit:logixplayer-android:0.8.4.1') {
         exclude  group:'com.google.android.gms'
-    	}
+}
 ```
 
 
