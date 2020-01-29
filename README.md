@@ -1,4 +1,4 @@
-			# LOGIXPLAYER SDK(Android) #
+# LOGIXPLAYER SDK(Android) #
 
 ## Overview ##
 The LogixPlayer SDK provides easy and seamless integration for playing videos in an android app, also providing methods for customizing player UI and behaviour as per requirements.
@@ -34,7 +34,7 @@ In your app's build.gradle file:
 
 
 
-##USING LOGIXPLAYER:##
+## USING LOGIXPLAYER: ##
 
 
 * Firstly, you will need to add LogixPlayerView into your xml file where you want your video to be played.
