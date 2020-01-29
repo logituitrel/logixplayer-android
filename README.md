@@ -1,16 +1,18 @@
-			#LOGIXPLAYER SDK(Android)#
+			# LOGIXPLAYER SDK(Android) #
 
-##Overview##
+## Overview ##
 The LogixPlayer SDK provides easy and seamless integration for playing videos in an android app, also providing methods for customizing player UI and behaviour as per requirements.
 LogixPlayer also supports easy integration with features such as DRM, IMA ads etc.,
 and also provides event callbacks to the app.
 LogixPlayer can also support multiple types of media sources and stereo modes.
 
 
-*Logixplayer SDK documentation can be found at*: <https://github.com/logituitrel/logixplayer-android/blob/master/com/logituit/logixplayer-android/1.1.0/docs_1.1.0.zip>
+*Logixplayer SDK documentation can be found at*: 
+
+<https://github.com/logituitrel/logixplayer-android/blob/master/com/logituit/logixplayer-android/1.1.0/docs_1.1.0.zip>
 
 
-##Including Logixplayer in your Android Project:##
+## Including Logixplayer in your Android Project: ##
 
 In your app's build.gradle file:
 
@@ -35,7 +37,7 @@ In your app's build.gradle file:
 ##USING LOGIXPLAYER:##
 
 
-*Firtly, you will need to add LogixPlayerView into your xml file where you want your video to be played.
+* Firstly, you will need to add LogixPlayerView into your xml file where you want your video to be played.
 ```
 <com.logituit.logixsdk.logixplayer.ui.LogixPlayerView
     android:id="@+id/player_view"
@@ -44,7 +46,7 @@ In your app's build.gradle file:
 ```
 
 
-*Second, you will need an ArrayList of one or more LogixPlayerEventListeners, which will notify you of player events.
+* Second, you will need an ArrayList of one or more LogixPlayerEventListeners, which will notify you of player events.
 
 ```
 public class PlayerActivity extends AppCompatActivity
@@ -54,13 +56,13 @@ logixPlayerEventListeners.add(this);
 }
 ```
 
-*Thirdly, you need to construct a LogixPlayerImpl object by passing your context, LogixPlayerView, LogixPlayerEventListener, and LogixAdEventListener(if you also want to play ads through logix sdk, null if you don't).
+* Thirdly, you need to construct a LogixPlayerImpl object by passing your context, LogixPlayerView, LogixPlayerEventListener, and LogixAdEventListener(if you also want to play ads through logix sdk, null if you don't).
 
 ```
 LogixPlayerImpl logixPlayerImpl = new LogixPlayerImpl(this, logixPlayerView, logixPlayerEventListeners, this);
 ```
 
-*Lastly, create a LogixPlayerImpl.LogixPlayerBuilder object using an Array of Uris that you want to play(and add any customizations), and call logixPlayerImpl.Initialize(logixPlayerBuilder).
+* Lastly, create a LogixPlayerImpl.LogixPlayerBuilder object using an Array of Uris that you want to play(and add any customizations), and call logixPlayerImpl.Initialize(logixPlayerBuilder).
 
 ```
 LogixPlayerImpl.LogixPlayerBuilder logixPlayerBuilder;
@@ -78,7 +80,7 @@ LogixPlayerImpl.LogixPlayerBuilder logixPlayerBuilder;
 ```
 
 
-##LISTENING TO LOGIXPLAYER EVENTS:##
+## LISTENING TO LOGIXPLAYER EVENTS: ##
 Override the interface methods of LogixPlayerEventListener which you have implemented in your player class.
 
 ```
@@ -87,7 +89,7 @@ public class PlayerActivity extends AppCompatActivity
 ```
 
 
-##HOW TO PASS DRM URL:##
+## HOW TO PASS DRM URL: ##
 
 Before initializing logixplayer, set the drm session for the logixplayer:
 ```
@@ -95,7 +97,7 @@ logixPlayerImpl.setDrmSessionManager(drmLicenseUrl, drmScheme);
 ```
 
 
-##RELEASING LOGIXPLAYER:##
+## RELEASING LOGIXPLAYER: ##
 ```
 private void releasePlayer() {
     if (logixPlayerImpl != null) {
@@ -104,7 +106,7 @@ private void releasePlayer() {
 }
 ```
 
-##SELECTING VIDEO TRACKS:##
+## SELECTING VIDEO TRACKS: ##
 You can get the list of available tracks from logixplayer:
 
 ```
@@ -119,7 +121,7 @@ logixPlayerImpl.setBitrate(videoResolution);
 ```
 
 
-##SELECTING AUDIO TRACKS:##
+## SELECTING AUDIO TRACKS: ##
 
 You can get the list of available audio tracks from logixplayer:
 
