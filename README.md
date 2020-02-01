@@ -11,6 +11,8 @@ LogixPlayer can also support multiple types of media sources and stereo modes.
 
 <https://github.com/logituitrel/logixplayer-android/blob/master/com/logituit/logixplayer-android/1.1.0/docs_1.1.0.zip>
 
+Please always refer to the documentation corresponding to the player version used
+
 
 ## Including Logixplayer in your Android Project: ##
 
@@ -20,7 +22,7 @@ In your app's build.gradle file:
 
 ```repositories {
 maven {
-	url 'https://raw.github.com/logituitrel/logixplayer-	android/master'
+	url 'https://raw.github.com/logituitrel/logixplayer-android/master'
 	}
 }
 ```	
@@ -33,6 +35,7 @@ api ('com.logituit:logixplayer-android:0.8.4.1') {
 }
 ```
 
+Replace the player sdk version with the version used
 
 
 ## USING LOGIXPLAYER: ##
