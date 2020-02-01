@@ -9,7 +9,7 @@ LogixPlayer can also support multiple types of media sources and stereo modes.
 
 *Logixplayer SDK documentation can be found at*: 
 
-<https://github.com/logituitrel/logixplayer-android/blob/master/com/docs>
+<https://github.com/logituitrel/logixplayer-android/tree/master/docs>
 
 Please always refer to the documentation corresponding to the player version below the one used if there is no exact match.
 
